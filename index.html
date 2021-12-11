@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <link rel="stylesheet" href="css/media.css">
+    <title>Воздушная выпечка</title>
+</head>
+
+<body>
+    <!--HEADER-->
+    <header class="header">
+        <div class="container">
+            <div class="header__top">
+                <a href="#" class="header__logo">
+                    Воздушная выпечка
+                </a>
+                <div class="header__top-loc">
+                    <img class="header__top-icon" src="img/icon.svg">
+                    <div class="header__top-locbox">
+                        <div class="header__top-sity">Киев</div>
+                        <div class="header__top-adress">ул. Победы 50/А</div>
+                    </div>
+                </div>
+                <div class="header__top-tel">
+                    <img class="header__top-telicon" src="img/phone.svg">
+                    <div class="header__top-telbox">
+                        <a class="header__top-telnumber" href="tel:+(380)458-78-45">+(380)458-78-45</a>
+                        <div class="header__top-teltitle">Ежедневно с 8:00 до 22:00</div>
+                    </div>
+                </div>
+            </div>
+            <div class="header__title-box">
+                <div class="header__title">
+                    Пирожные и капкейки   от 50 грн/шт. с доставкой по Киеву
+                </div>
+                <div class="header__subtitle">
+                    Приготовим за 3 часа в день заказа. Доставка на авто в холодильнике.
+                </div>
+                <a href="#catalog" class="header__btn">Перейти в каталог</a>
+            </div>
+            <!--menu-->
+            <div class="nav" id="navbar">
+                <div class="header__menu">
+                    <div class="header__menu-item"><a href="#catalog" class="header__menu-link">Каталог</a></div>
+                    <div class="header__menu-item"><a href="#foto" class="header__menu-link">Отправить фото</a></div>
+                    <div class="header__menu-item"><a href="#qwest" class="header__menu-link">Задать вопрос</a></div>
+                    <div class="header__menu-item"><a href="#about" class="header__menu-link">Отзывы</a></div>
+                    <div class="header__menu-item"><a href="#work" class="header__menu-link">Наши работы</a></div>
+                    <div class="header__menu-item"><a href="#order" class="header__menu-link">Сделать заказ</a></div>
+                </div>
+            </div>
+            <!--mobile menu-->
+            <nav class="mobile-menu">
+                <input type="checkbox" id="checkbox" class="mobile-menu__checkbox">
+                <label for="checkbox" class="mobile-menu__btn"><div class="mobile-menu__icon"></div></label>
+                <div class="mobile-menu__container">
+                <ul class="mobile-menu__list">
+                    <li class="mobile-menu__item"><a href="#catalog" class="mobile-menu__link">Каталог</a></li>
+                    <li class="mobile-menu__item"><a href="#foto" class="mobile-menu__link">Отправить фото</a></li>
+                    <li class="mobile-menu__item"><a href="#qwest" class="mobile-menu__link">Задать вопрос</a></li>
+                    <li class="mobile-menu__item"><a href="#about" class="mobile-menu__link">Отзывы</a></li>
+                    <li class="mobile-menu__item"><a href="#work" class="mobile-menu__link">Наши работы</a></li>
+                    <li class="mobile-menu__item"><a href="#order" class="mobile-menu__link">Сделать заказ</a></li>
+                </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <!--CATALOG-->
+        <section class="catalog" id="catalog">
+            <div class="container">
+                <div class="catalog__title">Для любых событий и дорогих вам людей </div>
+                <div class="catalog__box">
+                    <div class="catalog__card">
+                        <img src="img/card1.png" alt="" class="catalog__card-img">
+                        <div class="catalog__card-box">
+                            <div class="catalog__card-title">Кремовый замок</div>
+                            <div class="catalog__card-subtitle">Нежный крем любого цвета на выбор, вафельная основа
+                            </div>
+                            <div class="catalog__card-price">50 грн</div>
+                            <a href="#test-popup" class="catalog__card-btn show-popup"
+                                data-effect="mfp-zoom-in">Закзать</a>
+                        </div>
+                    </div>
+                    <div class="catalog__card">
+                        <img src="img/card2.png" alt="" class="catalog__card-img">
+                        <div class="catalog__card-box">
+                            <div class="catalog__card-title">Малиновый рай</div>
+                            <div class="catalog__card-subtitle">Воздушный крем, темная основа и ягода малины</div>
+                            <div class="catalog__card-price">50 грн</div>
+                            <a href="#test-popup" class="catalog__card-btn show-popup"
+                                data-effect="mfp-zoom-in">Закзать</a>
+                        </div>
+                    </div>
+                    <div class="catalog__card">
+                        <img src="img/card3.png" alt="" class="catalog__card-img">
+                        <div class="catalog__card-box">
+                            <div class="catalog__card-title">Фейерверк</div>
+                            <div class="catalog__card-subtitle">Разноцветные крем, с бисквитной основой</div>
+                            <div class="catalog__card-price">50 грн</div>
+                            <a href="#test-popup" class="catalog__card-btn show-popup"
+                                data-effect="mfp-zoom-in">Закзать</a>
+                        </div>
+                    </div>
+                    <div class="catalog__card">
+                        <img src="img/card4.png" alt="" class="catalog__card-img">
+                        <div class="catalog__card-box">
+                            <div class="catalog__card-title">Шоколадный мир</div>
+                            <div class="catalog__card-subtitle">Ореховая стружка, нежный крем и шоколадная основа</div>
+                            <div class="catalog__card-price">50 грн</div>
+                            <a href="#test-popup" class="catalog__card-btn show-popup"
+                                data-effect="mfp-zoom-in">Закзать</a>
+                        </div>
+                    </div>
+                    <div class="catalog__card">
+                        <img src="img/card5.png" alt="" class="catalog__card-img">
+                        <div class="catalog__card-box">
+                            <div class="catalog__card-title">Слезы дракона</div>
+                            <div class="catalog__card-subtitle">Нежный крем любого цвета на выбор, вафельная основа
+                            </div>
+                            <div class="catalog__card-price">50 грн</div>
+                            <a href="#test-popup" class="catalog__card-btn show-popup"
+                                data-effect="mfp-zoom-in">Закзать</a>
+                        </div>
+                    </div>
+                    <div class="catalog__card">
+                        <img src="img/card6.png" alt="" class="catalog__card-img">
+                        <div class="catalog__card-box">
+                            <div class="catalog__card-title">Летняя фантазия</div>
+                            <div class="catalog__card-subtitle">Украшения в форме сердец, для любимого человека</div>
+                            <div class="catalog__card-price">50 грн</div>
+                            <a href="#test-popup" class="catalog__card-btn show-popup"
+                                data-effect="mfp-zoom-in">Закзать</a>
+                        </div>
+                    </div>
+                    <div class="catalog__card">
+                        <img src="img/card7.png" alt="" class="catalog__card-img">
+                        <div class="catalog__card-box">
+                            <div class="catalog__card-title">Мыс безумия</div>
+                            <div class="catalog__card-subtitle">Разноцветная основа, стружка и нежный крем</div>
+                            <div class="catalog__card-price">50 грн</div>
+                            <a href="#test-popup" class="catalog__card-btn show-popup"
+                                data-effect="mfp-zoom-in">Закзать</a>
+                        </div>
+                    </div>
+                    <div class="catalog__card">
+                        <img src="img/card8.png" alt="" class="catalog__card-img">
+                        <div class="catalog__card-box">
+                            <div class="catalog__card-title">Облачная сказка</div>
+                            <div class="catalog__card-subtitle">Светлая основа, нежный крем со стружкой сверху</div>
+                            <div class="catalog__card-price">50 грн</div>
+                            <a href="#test-popup" class="catalog__card-btn show-popup"
+                                data-effect="mfp-zoom-in">Закзать</a>
+                        </div>
+                    </div>
+                    <div class="catalog__card">
+                        <img src="img/card9.png" alt="" class="catalog__card-img">
+                        <div class="catalog__card-box">
+                            <div class="catalog__card-title">Темный рыцарь</div>
+                            <div class="catalog__card-subtitle">Тёмная основа, нежный крем и вкусные шарики</div>
+                            <div class="catalog__card-price">50 грн</div>
+                            <a href="#test-popup" class="catalog__card-btn show-popup"
+                                data-effect="mfp-zoom-in">Закзать</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--CONTENT-->
+        <section class="content" id="foto">
+            <div class="catalog">
+                <div class="content__box">
+                    <div class="content__title">Приготовим заказ любой сложности по фото или эскизу</div>
+                    <div class="content__subtitle">Отправте фотографию или эскиз капкейков и мы рассчитаем стоимость за
+                        30 минут</div>
+                    <div class="content__item-box">
+                        <a href="https://www.skype.com/" target="blanc"><img class="content__icon" src="img/skype.png"
+                                alt=""></a>
+                        <div class="content__skype">Sky_cookies</div>
+                    </div>
+                    <div class="content__item-box">
+                        <a href="https://web.telegram.org/#/login" target="blanc"><img class="content__icon"
+                                src="img/telegram.png" alt=""></a>
+                        <div class="content__telegram">Sky_cookies</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--CHEF-->
+        <section class="chef" id="qwest">
+            <div class="chef__box">
+                <div class="chef__item">
+                    <div class="chef__item-title">Лично приготовлю и всё красиво упакую для вашего события</div>
+                    <ul class="chef__item-list">
+                        <li class="chef__item-punct">Проконсультирую по выбору капкейкови придумаю нестандартную идею
+                        </li>
+                        <li class="chef__item-punct">Приготовлю капкейки для вашего события, которые обязательно всем
+                            понравятся </li>
+                        <li class="chef__item-punct">Аккуратно и красиво всё упакую, если вы хотите сделать приятный
+                            подарок</li>
+                    </ul>
+                    <a href="#test2-popup" class="chef__item-btn show-popup" data-effect="mfp-zoom-in">Задать вопрос
+                        Юлии</a>
+                </div>
+                <div class="chef__item chef__item-position">
+                    <img src="img/woman.png" alt="" class="chef__item-img">
+                    <img src="img/name.png" alt="" class="chef__item-name">
+                    <img src="img/prof.png" alt="" class="chef__item-prof">
+                </div>
+            </div>
+        </section>
+        <!--SLIDER-->
+        <section class="slider-wrap" id="about">
+            <div class="slider-wrap__top"></div>
+            <div class="slider-wrap__title">Почитайте отзывы довольных клиентов</div>
+            <div class="slider">
+                <div class="slider__wrapper">
+                    <div class="slider__items">
+                        <div class="slider__item">
+                            <div class="slider__item-box">
+                                <img src="img/quotes.svg" alt="" class="slider__item-minimg">
+                                <div class="slider__item-title">«Результат дико порадовал, друзья были в восторге»</div>
+                                <div class="slider__item-subtitle">«Заказала капкейки, как подарок на новый год. Делать
+                                    заказ было легко и приятно, ну а результат дико порадовал, друзья были в восторге. И
+                                    оформление, и на вкус капкейки были просто замечательные. Обязательно буду
+                                    заказывать еще)) Уже строю планы, чтобы попробовать все начинки. Они восхитительны!)
+                                    Даже кушать было жалко, такая красота!) </div>
+                            </div>
+                            <div class="slider__item-box">
+                                <img class="slider__item-userimg" src="img/user1.png" alt="">
+                                <div class="slider__item-username">Ирина Ларионова</div>
+                            </div>
+                        </div>
+                        <div class="slider__item">
+                            <div class="slider__item-box">
+                                <img src="img/quotes.svg" alt="" class="slider__item-minimg">
+                                <div class="slider__item-title">«Отличная продукция! Буду частым клиентом!»</div>
+                                <div class="slider__item-subtitle">«Заказывал летняя фантазию, для сюприза любимой девушке. Дроставили в течении 30 минут, все было свежее и выглядело очень аппетитно! Любимая оценила! </div>
+                            </div>
+                            <div class="slider__item-box">
+                                <img class="slider__item-userimg" src="img/user-2.jpg" alt="">
+                                <div class="slider__item-username">Юрий Антонов</div>
+                            </div>
+                        </div>
+                        <div class="slider__item">
+                            <div class="slider__item-box">
+                                <img src="img/quotes.svg" alt="" class="slider__item-minimg">
+                                <div class="slider__item-title">«Шоколадный мир - это что-то!!!»</div>
+                                <div class="slider__item-subtitle">«Очень люблю шоколад и поэтому заказала шоколадный мир, вкус восхитетельный! Слопала  все за один раз, и еще заказала!</div>
+                            </div>
+                            <div class="slider__item-box">
+                                <img class="slider__item-userimg" src="img/user-3.jpg" alt="">
+                                <div class="slider__item-username">Серафима Дудкина</div>
+                            </div>
+                        </div>
+                        <div class="slider__item">
+                            <div class="slider__item-box">
+                                <img src="img/quotes.svg" alt="" class="slider__item-minimg">
+                                <div class="slider__item-title">«Очень помогли украсить своей продукцией праздничный стол!»</div>
+                                <div class="slider__item-subtitle">«Заказала несколько позиций на день рождения! Приехал предствитель и помог красиво оформить стол своей продукцией, гости остались довольны.  </div>
+                            </div>
+                            <div class="slider__item-box">
+                                <img class="slider__item-userimg" src="img/user-4.jpg" alt="">
+                                <div class="slider__item-username">Эльза Кукуева</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                Стрелки для перехода к предыдущему и следующему слайду
+                <a class="slider__control slider__control_prev" href="#" role="button" data-slide="prev"></a>
+                <a class="slider__control slider__control_next" href="#" role="button" data-slide="next"></a>
+            </div>
+            <div class="slider-wrap__bottom"></div>
+        </section>
+        <!--GALLERY-->
+        <section class="gallery" id="work">
+            <div class="container">
+                <div class="gallery__title">Сделали более 3.000 заказов за 2 года</div>
+                <div class="gallery__subtitle">Посмотрите фото реальных заказов в нашей галлерее!</div>
+                <div class="gallery__wrapper">
+                    <a href="img/gallery1.png" class="gallety__link"><img src="img/gallery1.png" alt=""
+                            class="gallery__img"></a>
+                    <a href="img/gallery2.png" class="gallety__link"><img src="img/gallery2.png" alt=""
+                            class="gallery__img"></a>
+                    <a href="img/gallery3.png" class="gallety__link"><img src="img/gallery3.png" alt=""
+                            class="gallery__img"></a>
+                    <a href="img/gallery4.png" class="gallety__link"><img src="img/gallery4.png" alt=""
+                            class="gallery__img"></a>
+                    <a href="img/gallery5.png" class="gallety__link"><img src="img/gallery5.png" alt=""
+                            class="gallery__img"></a>
+                    <a href="img/gallery6.png" class="gallety__link"><img src="img/gallery6.png" alt=""
+                            class="gallery__img"></a>
+                    <a href="img/gallery7.png" class="gallety__link"><img src="img/gallery7.png" alt=""
+                            class="gallery__img"></a>
+                    <a href="img/gallery8.png" class="gallety__link"><img src="img/gallery8.png" alt=""
+                            class="gallery__img"></a>
+                    <a href="img/gallery9.png" class="gallety__link"><img src="img/gallery9.png" alt=""
+                            class="gallery__img"></a>
+                </div>
+            </div>
+        </section>
+        <!--MODAL-->
+        <div id="test-popup" class="white-popup mfp-with-anim mfp-hide">
+            <div class="popup__top"></div>
+            <h2>Заполните пожалуйстста все поля</h2>
+            <form class="popup__form">
+
+                <!--Hidden Required Fields-->
+                <input type="hidden" name="project_name" value="Воздушная выпечка">
+                <input type="hidden" name="admin_email" value="joomlakop@gmail.com">
+                <input type="hidden" name="form_subject" value="Form Subject">
+                <!--END Hidden Required Fields -->
+
+                <input class="catalog__input" type="text" name="Name" placeholder="Ваше имя" required><br>
+                <input class="catalog__input" type="text" name="Phone" placeholder="Ваш телефон" required><br>
+                <button class="catalog__btn">Заказать</button>
+
+            </form>
+            <img src="img/berry2.png" alt="" class="berry9">
+            <img src="img/leaf2.png" alt="" class="leaf8">
+            <div class="popup__bottom"></div>
+        </div>
+        <!--MODAL-->
+        <div id="test2-popup" class="green-popup mfp-with-anim mfp-hide">
+            <div class="popup__top"></div>
+            <h2>Задайте свой вопрос.</h2>
+            <form class="popup__form">
+                <!--Hidden Required Fields-->
+                <input type="hidden" name="project_name" value="Воздушная выпечка">
+                <input type="hidden" name="admin_email" value="joomlakop@gmail.com">
+                <input type="hidden" name="form_subject" value="Form Subject">
+                <!--END Hidden Required Fields-->
+
+                <input class="catalog__input" type="text" name="Name" placeholder="Ваше имя" required><br>
+                <input class="catalog__input" type="text" name="Phone" placeholder="Ваш телефон" required><br>
+                <textarea class="catalog__textarea" placeholder="Ваш вопрос"></textarea>
+                <button class="catalog__btn">Отправить</button>
+            </form>
+            <img src="img/berry2.png" alt="" class="berry9">
+            <img src="img/leaf2.png" alt="" class="leaf8">
+            <div class="popup__bottom"></div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__top"></div>
+        <div class="footer__wrapper" id="order">
+            <div class="footer__title">Чтобы сделать заказ, укажите ваш телефон</div>
+            <div class="footer__subtitle">Мы перезвоним в течении 15 минут, чтобы уточнить ваши пожелания</div>
+            <form class="footer__form" action="">
+                <!--Hidden Required Fields-->
+                <input type="hidden" name="project_name" value="Воздушная выпечка">
+                <input type="hidden" name="admin_email" value="joomlakop@gmail.com">
+                <input type="hidden" name="form_subject" value="Form Subject">
+                <!--END Hidden Required Fields-->
+                <div class="footer__form-box">
+                    <input class="footer__input" type="text" name="Phone" placeholder="Ваш телефон" required>
+                    <button class="footer__btn" type="submit">Сделать заказ</button>
+                </div>
+                <div class="footer__link-box">
+                    <input class="footer__checkbox" type="checkbox">
+                    <div class="footer__link">Нажамая на кнопку, вы соглашаетесь с <a href="#">условиями обработки</a>
+                        персональных
+                        данных
+                    </div>
+                </div>
+            </form>
+        </div>
+    </footer>
+    <script
+            src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+            crossorigin="anonymous">
+    </script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
